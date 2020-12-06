@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">NapoleonIT</string>
+
+    <!-- MainActivity -->
+    <string name="current_object">Текущий объект</string>
+    <string name="current_fields">Имя: Мяч Цена: 800</string>
+    <string name="update_object">Редактировать</string>
+    <string name="name_info">Имя</string>
+
+    <!-- EditActivity -->
+    <string name="name_content_description">Имя</string>
+    <string name="price_info">Цена</string>
+    <string name="discount_info">Скидка</string>
+    <string name="editBtn">Изменить</string>
 </resources>
