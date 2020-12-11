@@ -1,11 +1,13 @@
 package com.example.napoleonit
 
-import java.io.Serializable
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 data class Product(
         val name: String,
         val price: Double,
-        val discount: Int = 0) : Serializable {
+        val discount: Int = 0) : Parcelable {
 
     fun calcDiscountPrice(): Double {
         return price * (1 - (discount / 100.0))
