@@ -7,7 +7,7 @@ import com.example.napoleonit.Product
 import com.example.napoleonit.R
 import kotlinx.android.synthetic.main.fragment_product_catalog.*
 
-class ProductCatalogFragment : Fragment(R.layout.fragment_product_catalog) {
+class CatalogFragment : Fragment(R.layout.fragment_product_catalog) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -16,7 +16,7 @@ class ProductCatalogFragment : Fragment(R.layout.fragment_product_catalog) {
 
         detailedBtn.setOnClickListener {
             requireFragmentManager().beginTransaction()
-                    .replace(R.id.container, ProductDetailsFragment.newInstance(product))
+                    .replace(R.id.container, DetailsFragment.newInstance(product))
                     .addToBackStack("Catalog")
                     .commit()
         }

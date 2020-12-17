@@ -7,14 +7,14 @@ import com.example.napoleonit.Product
 import com.example.napoleonit.R
 import kotlinx.android.synthetic.main.fragment_product_details.*
 
-class ProductDetailsFragment : Fragment(R.layout.fragment_product_details) {
+class DetailsFragment : Fragment(R.layout.fragment_product_details) {
 
     companion object {
 
         private const val PRODUCT_TAG = "PRODUCT_TAG"
 
         fun newInstance(product: Product) =
-                ProductDetailsFragment().apply {
+                DetailsFragment().apply {
                     arguments = Bundle().apply {
                         putParcelable(PRODUCT_TAG, product)
                     }

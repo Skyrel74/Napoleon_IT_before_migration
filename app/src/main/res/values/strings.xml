@@ -1,15 +1,14 @@
 <resources>
     <string name="app_name">NapoleonIT</string>
 
-    <!-- MainActivity -->
-    <string name="current_object">Текущий объект</string>
-    <string name="current_fields">Имя: Мяч Цена: 800</string>
-    <string name="update_object">Редактировать</string>
-    <string name="name_info">Имя</string>
-
-    <!-- EditActivity -->
-    <string name="name_content_description">Имя</string>
-    <string name="price_info">Цена</string>
-    <string name="discount_info">Скидка</string>
-    <string name="editBtn">Изменить</string>
+    <!-- CheckoutFragment -->
+    <string name="checkout_header">Оплата заказа</string>
+    <string name="name_hint">Имя</string>
+    <string name="surname_hint">Фамилия</string>
+    <string name="phone_hint">Телефон</string>
+    <string name="phone_example">Пример, 89999999999 или +79999999999</string>
+    <string name="pay_chose">Способ оплаты</string>
+    <string name="cash">Наличными</string>
+    <string name="card">Картой при получении</string>
+    <string name="pay">Оплатить</string>
 </resources>
